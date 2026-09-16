@@ -1,0 +1,27 @@
+# 后端依赖清单(torch 需单独从 pytorch CPU 源安装,见下方注释)
+# pip install torch --index-url https://download.pytorch.org/whl/cpu
+fastapi
+uvicorn[standard]
+sqlalchemy
+pyjwt
+bcrypt
+python-multipart
+python-dotenv
+loguru
+slowapi
+httpx
+langchain
+langchain-community
+langchain-chroma
+langchain-text-splitters
+langchain-ollama
+langchain-huggingface
+langchain-openai
+sentence-transformers
+pymupdf
+python-docx
+openpyxl
+pandas
+rank-bm25
+jieba
+chromadb
